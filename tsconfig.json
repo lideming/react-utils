@@ -1,0 +1,20 @@
+{
+    "files": ["src/index.ts"],
+    "compilerOptions": {
+        "declaration": true,
+        "module": "ES2015",
+        "target": "ES2015",
+        "jsx": "preserve",
+        "lib": ["dom", "es2015"],
+        "sourceMap": true,
+        "downlevelIteration": true,
+        "strictNullChecks": true,
+        "outDir": "./build",
+        "moduleResolution": "node",
+        "allowSyntheticDefaultImports": true
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
