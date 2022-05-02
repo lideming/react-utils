@@ -8,9 +8,6 @@
   "scripts": {
     "build": "tsc && rollup build/index.js --format umd --name index -o build/index.umd.js"
   },
-  "files": [
-    "build"
-  ],
   "keywords": [],
   "author": "",
   "license": "MIT",
